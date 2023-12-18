@@ -2,9 +2,7 @@
 This repository contains the code for the paper: Learning Hamiltonian neural Koopman operator and sustaining conservation law
 
 ## Requirements
-[Pytorch 1.8.1](https://pytorch.org/get-started/locally/)
-
-[Geotorch](https://github.com/lezcano/geotorch)
+Please download the packages in the **requirements**
 
 
 ## How it works
