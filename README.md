@@ -2,7 +2,7 @@
 This repository contains the code for the paper: Learning Hamiltonian neural Koopman operator and sustaining conservation law
 
 ## Requirements
-Please download the packages in the **requirements**
+Please download the packages in the **requirements.txt** file.
 
 
 ## How it works
