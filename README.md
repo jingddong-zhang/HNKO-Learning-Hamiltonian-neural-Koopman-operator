@@ -1,5 +1,5 @@
 # HNKO
-This repository contains the code for the paper: Learning Hamiltonian neural Koopman operator and sustaining conservation law
+This repository contains the code for the paper: Learning Hamiltonian neural Koopman operator and simultaneously sustaining and discovering conservation law.
 
 ## Requirements
 Please download the packages in the **requirements.txt** file.
