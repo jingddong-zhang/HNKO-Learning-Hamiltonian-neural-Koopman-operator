@@ -12,6 +12,6 @@ The data of HNKO_ast is provided in the [Google Drive](https://drive.google.com/
 
 
 ## Updated documents
-The newly added directory Model in replys contains the reproduced python code of CNN-LSTM, Hamiltonian ODE graph networks (HOGN) and reservoir computing.
+The newly added directory **Model in replys** contains the reproduced python code of CNN-LSTM, Hamiltonian ODE graph networks (HOGN) and reservoir computing.
 
-The hnko_feature documents in directory threeboy and kepler are used to discover the Hamiltonians.
+The **hnko_feature.py** documents in directory threeboy and kepler are used to discover the Hamiltonians.
