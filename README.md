@@ -4,6 +4,8 @@ This repository contains the code for the paper: *Learning Hamiltonian neural Ko
 ### Introduction
 
 A machine learning framework, equipped with a unitary Koopman structure, is designed to reconstruct Hamiltonian systems using either noise-perturbed or partially observational data. This framework can discover conservation laws and scale effectively to physical models even with hundreds and thousands of freedoms. Specifically, the framework is comprised of an __auto-encoder__ with latent space being an high dimensional sphere, and a __neural unitary Koopman operator__ constructed by the Lie exponent map of neural network.
+![image](https://github.com/jingddong-zhang/HNKO/blob/main/HNKO_sketch.png)
+
 
 ## Requirements
 Please download the packages in the **requirements.txt** file.
