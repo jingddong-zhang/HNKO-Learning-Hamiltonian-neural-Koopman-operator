@@ -21,6 +21,8 @@ The data of HNKO_ast is provided in the [Google Drive](https://drive.google.com/
 We thank Prof. [Fusco](https://www.math.unipd.it/en/department/people/giovanni.fusco/) for providing the orbit data of $n$-body problem in $3$-D space, including $n=4,12,24,60$. The [source data](http://adams.dm.unipi.it/~gronchi/nbody/) is orbit data of position variables for single body, we recover the whole orbit data for all the bodies by the method proposed in [[1]](https://link.springer.com/content/pdf/10.1007/s00222-010-0306-3.pdf). Notice that the whole orbit data for position $\mathbf{q}$ is still partial observation of the $n$-body problem, in which the full state $(\mathbf{q},\mathbf{p})$ also covers the momentum variable. Still, we numerically demonstate our HNKO performs well in this task. 
 
 # Usage
+${\color{blue}\text{More details are going to be updated in the following weeks!}}$
+
 The directory **Model in replys** contains the reproduced python code of CNN-LSTM, Hamiltonian ODE graph networks (HOGN) and reservoir computing.
 For a standard comparison with these models, we apply the model structures in [CNN-LSTM](https://github.com/ozancanozdemir/CNN-LSTM), [graph-neural-ode](https://github.com/jaketae/graph-neural-ode/tree/master), [RC](https://github.com/zhuqunxi/RC_Lorenz).
 
