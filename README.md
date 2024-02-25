@@ -2,7 +2,7 @@
 ![image](https://github.com/jingddong-zhang/HNKO/blob/main/logo.jpg)
 
 # [PRR] Learning Hamiltonian neural Koopman operator and simultaneously sustaining and discovering conservation laws
-This repository contains the code for the paper: *Learning Hamiltonian neural Koopman operator and simultaneously sustaining and discovering conservation law* by Jingdong Zhang, Qunxi Zhu, and Wei Lin.
+This repository contains the code for the paper: *Learning Hamiltonian neural Koopman operator and simultaneously sustaining and discovering conservation law* by [Jingdong Zhang](https://scholar.google.cz/citations?user=Bjo3nfwAAAAJ&hl=zh-CN&oi=ao), [Qunxi Zhu](https://scholar.google.cz/citations?user=45oFQD4AAAAJ&hl=zh-CN&oi=ao), and [Wei Lin](https://faculty.fudan.edu.cn/wlin/zh_CN/zdylm/652034/list/index.htm).
 
 ### Introduction
 
@@ -16,9 +16,9 @@ A machine learning framework, equipped with a unitary Koopman structure, is desi
 Please download the packages in the **requirements.txt** file.
 
 # Data
-The data of HNKO_ast is provided in the [Google Drive](https://drive.google.com/file/d/1_4_n5GAD2jS-SqP-enf8S-5cI781qTZu/view?usp=sharing)
+The data of HNKO_ast is provided in the [Google Drive](https://drive.google.com/file/d/1_4_n5GAD2jS-SqP-enf8S-5cI781qTZu/view?usp=sharing).
 
-We thank Prof. [Fusco](https://www.math.unipd.it/en/department/people/giovanni.fusco/) for providing the orbit data of $n$-body problem in $3$-D space, including $n=4,12,24,60$. The source data in is orbit data of position variables for single body, we recover the whole orbit data for all the bodies by the method proposed in.
+We thank Prof. [Fusco](https://www.math.unipd.it/en/department/people/giovanni.fusco/) for providing the orbit data of $n$-body problem in $3$-D space, including $n=4,12,24,60$. The [source data](http://adams.dm.unipi.it/~gronchi/nbody/) is orbit data of position variables for single body, we recover the whole orbit data for all the bodies by the method proposed in [[1]](https://link.springer.com/content/pdf/10.1007/s00222-010-0306-3.pdf). Notice that the whole orbit data for position $\mathbf{q}$ is still partial observation of the $n$-body problem, in which the full state $(\mathbf{q},\mathbf{p})$ also covers the momentum variable. Still, we numerically demonstate our HNKO performs well in this task. 
 
 # Usage
 The directory **Model in replys** contains the reproduced python code of CNN-LSTM, Hamiltonian ODE graph networks (HOGN) and reservoir computing.
@@ -48,3 +48,9 @@ If you use our work in your research, please cite:
   url = {https://link.aps.org/doi/10.1103/PhysRevResearch.6.L012031}  
 }
 ```
+
+# Reference
+
+[1] Fusco, G., Gronchi, G. F., & Negrini, P. (2011). Platonic polyhedra, topological constraints and periodic solutions of the classical N-body problem. Inventiones mathematicae, 185(2), 283-332.
+
+[2] Lezcano-Casado, M., & Martınez-Rubio, D. (2019, May). Cheap orthogonal constraints in neural networks: A simple parametrization of the orthogonal and unitary group. In International Conference on Machine Learning (pp. 3794-3803). PMLR.
