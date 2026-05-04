@@ -13,7 +13,8 @@ A machine learning framework, equipped with a unitary Koopman structure, is desi
 
 
 # Installation
-Please download the packages in the **requirements.txt** file.
+We provide both `environment.yml` and `requirements.txt` for environment setup. For a full local conda environment, please use `conda env create -f environment.yml`; for a lightweight pip-based setup, such as Google Colab, please use `pip install -r requirements.txt`.
+
 
 # Data
 The data of HNKO_ast is provided in the [Google Drive](https://drive.google.com/file/d/1_4_n5GAD2jS-SqP-enf8S-5cI781qTZu/view?usp=sharing).
