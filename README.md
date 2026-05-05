@@ -30,7 +30,7 @@ For a standard comparison with these models, we apply the model structures in [C
 The **hnko_feature.py** documents in directory **threeboy** and **kepler** are used to discover the Hamiltonians.
 
 # Acknowledgement
-Authors appreciate Phoenix, a talented artist, for designing the logo of [Research Institute of Intelligent Complex Systems](https://iics.fudan.edu.cn/main.htm).
+Authors appreciate Phoenix, a talented artist, for designing the initial version logo of [Research Institute of Intelligent Complex Systems](https://iics.fudan.edu.cn/main.htm).
 
 # Citation
 If you use our work in your research, please cite:
